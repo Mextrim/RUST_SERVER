@@ -1,0 +1,28 @@
+# Rust dedicated server files: downloaded via SteamCMD, not stored in git.
+# Roughly 6 GB of game data, SteamCMD and Carbon update these in place.
+server/
+steamcmd/
+
+# Local launch script. Contains the RCON password, so it is never committed.
+# Use run.example.bat as the template and fill in your own secrets.
+run.bat
+
+# Runtime state and logs
+*.log
+logs/
+carbon/
+cfg/
+watchdog.log
+stop_watchdog.txt
+identity/
+
+# Third-party plugin configs live with the server; sanitize before sharing anything.
+*.xgi
+
+# Windows and editors
+Thumbs.db
+desktop.ini
+.vs/
+.idea/
+*.tmp
+*.bak
