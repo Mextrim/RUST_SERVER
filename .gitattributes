@@ -1,0 +1,10 @@
+# Normalize line endings so the repo behaves the same on Windows and Linux.
+* text=auto
+
+# Batch files must use CRLF, otherwise cmd.exe misparses line continuations.
+*.bat text eol=crlf
+
+# Source and docs stay with LF.
+*.cs text eol=lf
+*.md text eol=lf
+*.json text eol=lf
