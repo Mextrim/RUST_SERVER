@@ -1,0 +1,58 @@
+{
+  "_comment": "Reference copy of the Carbon permission groups. Carbon stores these internally in carbon/data/oxide.groups.data, so this file is not read automatically. Use it as the source of truth when rebuilding a server: either grant perms from the console with 'c.grant group <group> <perm>' or use an in-game group editor.",
+  "groups": {
+    "default": {
+      "title": "Default",
+      "perms": [
+        "backpacks.use",
+        "backpacks.gui",
+        "removertool.normal",
+        "chatclear.self",
+        "furnacesplitter.use",
+        "nteleportation.home",
+        "nteleportation.tpr",
+        "nteleportation.tpb"
+      ]
+    },
+    "admin": {
+      "title": "Admin",
+      "perms": [
+        "adminpanel.allowed",
+        "adminhammer.allow",
+        "adminradar.allowed",
+        "adminradar.list",
+        "vanish.allow",
+        "vanish.unlock",
+        "vanish.invviewer",
+        "vanish.teleport",
+        "nteleportation.admin",
+        "nteleportation.tp",
+        "nteleportation.tpn",
+        "nteleportation.tpl",
+        "nteleportation.tpsave",
+        "nteleportation.tpremove",
+        "removertool.admin",
+        "removertool.all",
+        "removertool.structure",
+        "removertool.override",
+        "removertool.target",
+        "removertool.external",
+        "backpacks.admin",
+        "backpacks.admin.view",
+        "backpacks.admin.edit",
+        "backpacks.admin.resize",
+        "chatclear.all"
+      ]
+    },
+    "moderator": {
+      "title": "Moderator",
+      "perms": []
+    }
+  },
+  "playerGroups": {
+    "_comment": "Placeholder SteamID64 of the server owner. Replace with your own.",
+    "76561190000000000": [
+      "admin"
+    ]
+  }
+}

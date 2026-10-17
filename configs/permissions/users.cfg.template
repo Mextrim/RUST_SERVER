@@ -1,0 +1,9 @@
+# Template of server/server/moddedrust/cfg/users.cfg
+#
+# Replace the placeholder SteamID64 with your own. It is a 17-digit number,
+# you can look yours up on steamid.io while logged in.
+#
+# ownerid gives the player full rights: they become the server owner, can do
+# everything and cannot be banned or kicked by anyone else, including other admins.
+
+ownerid 76561190000000000 "Admin" "Server owner"

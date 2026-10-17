@@ -1,0 +1,25 @@
+{
+  "_kits": {
+    "starter": {
+      "Name": "starter",
+      "Description": "Start kit for newcomers. One claim per player.",
+      "RequiredPermission": "",
+      "MaximumUses": 1,
+      "RequiredAuth": 0,
+      "Cooldown": 0,
+      "Cost": 0,
+      "IsHidden": false,
+      "CopyPasteFile": "",
+      "KitImage": "",
+      "MainItems": [
+        { "Shortname": "rock", "DisplayName": "", "Skin": 0, "Amount": 1, "Condition": 100, "MaxCondition": 100 },
+        { "Shortname": "spear.wooden", "DisplayName": "", "Skin": 0, "Amount": 1, "Condition": 100, "MaxCondition": 100 },
+        { "Shortname": "torch", "DisplayName": "", "Skin": 0, "Amount": 5, "Condition": 50, "MaxCondition": 50 },
+        { "Shortname": "bandage", "DisplayName": "", "Skin": 0, "Amount": 3, "Condition": 0, "MaxCondition": 0 },
+        { "Shortname": "sleepingbag", "DisplayName": "", "Skin": 0, "Amount": 1, "Condition": 100, "MaxCondition": 100 }
+      ],
+      "WearItems": [],
+      "BeltItems": []
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "Kit chat command": "kit",
+  "Currency used for purchase costs (Scrap, Economics, ServerRewards)": "Scrap",
+  "Log kits given": false,
+  "Wipe player data when the server is wiped": false,
+  "Use the Kits UI menu": true,
+  "Only show/give players skins that they are allowed to use (requires PlayerDLCAPI)": true,
+  "Allow NPCs to use skins in kits": true,
+  "Allow players to toggle auto-kits on spawn": false,
+  "Show kits with permissions assigned to players without the permission": false,
+  "Players with the admin permission ignore usage restrictions": false,
+  "Autokits ordered by priority": [],
+  "Post wipe cooldowns (kit name | seconds)": {},
+  "Parameters used when pasting a building via CopyPaste": [
+    "deployables",
+    "true",
+    "inventories",
+    "true"
+  ],
+  "UI Options": {
+    "Panel Color": {
+      "Hex": "#0D121A",
+      "Alpha": 1.0
+    },
+    "Disabled Color": {
+      "Hex": "#1A212B",
+      "Alpha": 1.0
+    },
+    "Color 1": {
+      "Hex": "#2166AC",
+      "Alpha": 1.0
+    },
+    "Color 2": {
+      "Hex": "#2E8BC0",
+      "Alpha": 1.0
+    },
+    "Color 3": {
+      "Hex": "#E0A028",
+      "Alpha": 1.0
+    },
+    "Color 4": {
+      "Hex": "#B3541E",
+      "Alpha": 1.0
+    },
+    "Default kit image URL": "https://files.rusthq.com/images/kiticon.png",
+    "View kit icon URL": "https://files.rusthq.com/images/magnifyingglass.png"
+  },
+  "Kit menu items when opened via HumanNPC (NPC user ID | Items)": {},
+  "Version": {
+    "Major": 4,
+    "Minor": 4,
+    "Patch": 10
+  }
+}
