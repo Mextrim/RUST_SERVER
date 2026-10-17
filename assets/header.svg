@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Rust dedicated server">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"  stop-color="#0a0b0d"/>
+      <stop offset="50%" stop-color="#14100e"/>
+      <stop offset="100%" stop-color="#241611"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#E07A3C"/>
+      <stop offset="55%"  stop-color="#EBA54A"/>
+      <stop offset="100%" stop-color="#F2C173"/>
+    </linearGradient>
+
+    <radialGradient id="glowA" cx="0.20" cy="0.22" r="0.58">
+      <stop offset="0%"   stop-color="#E07A3C" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#E07A3C" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowB" cx="0.90" cy="0.85" r="0.55">
+      <stop offset="0%"   stop-color="#F2C173" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#F2C173" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#F2B87A" fill-opacity="0.15"/>
+    </pattern>
+
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+
+    <clipPath id="frame"><rect x="0" y="0" width="1200" height="300"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#dots)"/>
+
+    <!-- diagonal hazard stripes -->
+    <g opacity="0.05" stroke="#F2B87A" stroke-width="10">
+      <path d="M-40 300 L120 0"/>
+      <path d="M40 300 L200 0"/>
+      <path d="M120 300 L280 0"/>
+      <path d="M980 300 L1160 0"/>
+      <path d="M1060 300 L1240 0"/>
+    </g>
+
+    <rect width="1200" height="300" fill="url(#glowA)"/>
+    <rect width="1200" height="300" fill="url(#glowB)"/>
+
+    <text x="66" y="140"
+          font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+          font-size="58" font-weight="700" letter-spacing="7"
+          fill="#E07A3C" fill-opacity="0.5" filter="url(#soft)">RUST_SERVER</text>
+
+    <text x="66" y="140"
+          font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+          font-size="58" font-weight="700" letter-spacing="7"
+          fill="url(#accent)">RUST_SERVER</text>
+
+    <rect x="68" y="164" width="104" height="3.5" rx="1.75" fill="url(#accent)"/>
+
+    <text x="66" y="200"
+          font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+          font-size="18" letter-spacing="1.2" fill="#cbb5a4">
+      Carbon · скрипты запуска · плагин меню
+    </text>
+
+    <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="13" letter-spacing="1.2">
+      <rect x="900" y="74"  width="126" height="32" rx="16" fill="#E07A3C" fill-opacity="0.09" stroke="#E07A3C" stroke-opacity="0.32"/>
+      <circle cx="921" cy="90" r="3.5" fill="#E07A3C"/>
+      <text x="933" y="95" fill="#F0BE93">Carbon</text>
+
+      <rect x="900" y="114" width="126" height="32" rx="16" fill="#F2C173" fill-opacity="0.09" stroke="#F2C173" stroke-opacity="0.32"/>
+      <circle cx="921" cy="130" r="3.5" fill="#F2C173"/>
+      <text x="933" y="135" fill="#F5D7A6">Windows</text>
+
+      <rect x="900" y="154" width="126" height="32" rx="16" fill="#D8734B" fill-opacity="0.09" stroke="#D8734B" stroke-opacity="0.32"/>
+      <circle cx="921" cy="170" r="3.5" fill="#D8734B"/>
+      <text x="933" y="175" fill="#EBB9A2">14 конфигов</text>
+    </g>
+
+    <rect x="66" y="256" width="1068" height="1" fill="#E07A3C" fill-opacity="0.14"/>
+    <text x="66" y="280"
+          font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+          font-size="11.5" letter-spacing="1.6" fill="#7a6559">app 258550 · Carbon вместо Oxide</text>
+    <text x="1134" y="280" text-anchor="end"
+          font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+          font-size="11.5" letter-spacing="1.6" fill="#7a6559">3500 · сид 12345 · 50 игроков</text>
+  </g>
+</svg>
